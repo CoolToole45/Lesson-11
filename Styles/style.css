@@ -2,7 +2,14 @@
 	margin: 0 auto;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "HelveticaNeue-Regular";
 }
+
+body {
+	overflow-x: hidden;
+}
+
+
 
 .Flex_Class {
 	display: flex;
@@ -70,7 +77,6 @@ nav a {
 }
 
 .Img_Row img {
-	max-width: 180px;
 	width: 100%;
 	margin-right: 25px;
 }
@@ -154,6 +160,7 @@ nav a {
 }
 
 .Input_Line {
+	padding-top: 20px;
 	background: none;
 	border: none;
 	border-bottom: 2px solid white;

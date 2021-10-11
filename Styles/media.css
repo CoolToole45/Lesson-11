@@ -1,4 +1,8 @@
 @media (max-width: 1024px) {
+	body {
+		overflow-x: hidden;
+	}
+
 	.Nav_Bar {
 		display: none;
 	}
@@ -10,15 +14,55 @@
 		width: 50%;
 	}
 
+	.Img_Row {
+		display: grid;
+		grid-template-columns: repeat(2, 160px);
+		width: 100%;
+	}
+
 	.Img_Row img:nth-child(5) {
 		display: none;
 	}
 
-	.Num_Email {
-		flex-wrap: wrap;
+	.Paragraphs {
+		font-size: 14px;	
 	}
 
 	.Submit_Button {
 		margin: 0 auto;
+	}
+
+	.Contact h2, p {
+		display: none;
+	}
+
+	.Num_Email span {
+		margin: 0;
+		font-size: 13px;
+	}
+
+	.Contact_Info {
+		margin: 5px;
+
+	}
+
+	.Footer_Container {
+		flex-wrap: wrap-reverse;
+	}
+
+	.Footer_Container div {
+		padding-bottom: 50px;
+	}
+
+	.Footer_Container span {
+		font-size: 13px;
+	}
+
+	.Footer_Container img {
+		margin: 0 5px;
+	}
+
+	.Copyright_Span {
+		opacity: 0.5;
 	}
 }
