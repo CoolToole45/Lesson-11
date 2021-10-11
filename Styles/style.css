@@ -1,0 +1,192 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.Flex_Class {
+	display: flex;
+}
+
+/*Header Start*/
+
+header {
+	background-color: blue;
+	height: 387px;
+}
+
+.Header_Div {
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 40px;
+	flex-wrap: wrap;
+}
+
+nav li {
+	list-style: none;
+	display: inline;
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+.Cont_Button {
+	color: black;
+	border: 20px solid white;
+	background-color: white;
+	border-radius: 30px;
+	padding: 0 10px;
+}
+
+/*Header End*/
+
+
+/*Main Section Start*/
+
+.Main_Section {
+	position: relative;
+	top: -120px;
+}
+
+.Main_Sec_Content_Container {
+	max-width: 1195px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.Main_Img {
+	margin-bottom: 30px;
+	width: 100%;
+/*	position: relative;
+	top: -150px;
+	z-index: 1;*/
+}
+
+.Img_Row {
+	margin: 60px 0;
+}
+
+.Img_Row img {
+	max-width: 180px;
+	width: 100%;
+	margin-right: 25px;
+}
+
+.Paragraphs {
+	max-width: 924px;
+}
+
+.Paragraphs p {
+	margin-bottom: 18px;
+}
+
+.More_Info_Button {
+	justify-content: center;
+	margin-top: 58px;
+}
+
+.More_Info_Button a {
+	text-decoration: none;
+	color: white;
+	border: 10px solid blue;
+	background-color: blue;
+	border-radius: 30px;
+	padding: 5px 35px;
+}
+
+/*Main Section End*/
+
+
+
+/*Bottom Section Start*/
+
+.Bottom_Section {
+	background-color: blue;
+	color: white;
+	margin-top: 200px;
+	padding: 100px 0;
+}
+
+.Bottom_Section_Container {
+	max-width: 1195px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.Contact_Text {
+	width: 490px;
+	padding: 30px 0 58px;
+	margin: 0;
+}
+
+.Num_Email {
+	align-items: center;
+	padding-top: 70px;
+	flex-wrap: wrap;
+}
+
+.Num_Email span {
+	margin-right: 20px;
+	font-size: 22px;
+}
+
+.Contact_Info {
+	border: 10px solid white;
+	background-color: white;
+	margin-right: 20px;
+	border-radius: 25px;
+}
+
+.Bottom_Section_Container {
+	flex-wrap: wrap-reverse;
+}
+
+.Bottom_Section_Form {
+	display: flex;
+	flex-direction: column;
+}
+
+.Bottom_Section_Form div {
+	margin: 20px;
+}
+
+.Input_Line {
+	background: none;
+	border: none;
+	border-bottom: 2px solid white;
+	opacity: 0.5;
+	resize: none;
+}
+
+textarea {
+	height: 100px;
+}
+
+.Submit_Button {
+	border: none;
+	border: 20px solid white;
+	background-color: white;
+	font-weight: bold;
+}
+
+/*Bottom Section End*/
+
+
+/*Footer Start*/
+
+footer {
+	background-color: blue;
+	color: white;
+}
+
+.Footer_Container {
+	justify-content: space-between;
+	align-items: center;
+	border-top: 2px solid rgba(255, 255, 255, 0.2);
+	padding: 30px;
+}
+
+/*Footer End*/

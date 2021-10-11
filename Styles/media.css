@@ -1,0 +1,24 @@
+@media (max-width: 1024px) {
+	.Nav_Bar {
+		display: none;
+	}
+
+	.Img_Row {
+		justify-content: space-evenly;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 50%;
+	}
+
+	.Img_Row img:nth-child(5) {
+		display: none;
+	}
+
+	.Num_Email {
+		flex-wrap: wrap;
+	}
+
+	.Submit_Button {
+		margin: 0 auto;
+	}
+}
